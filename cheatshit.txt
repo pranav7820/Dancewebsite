@@ -1,0 +1,27 @@
+touch .gitignore
+git confog --global user.name pranav
+git confog --global user.email pranavkewate87820@gmail.com
+git add .
+git commit -m "Initial commit"
+git status  # just to see
+
+
+on internet search 
+geneterate new SSH
+copy the path then insert on git-dash
+$ ssh-keygen -t rsa -b 4096 -C "pranavkewate7820@gmail.com"
+tail </c/Users/admin/.ssh/id_rsa.pub>
+enter 
+enter
+
+to want key:
+$ cat /c/Users/admin/.ssh/id_rsa.pub
+copy to ssh path and save it 
+
+git push origin master
+
+
+
+
+
+
